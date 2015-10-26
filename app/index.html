@@ -6,12 +6,31 @@
     <link rel="stylesheet" type="text/css" href="app.css"/>
   </head>
   <body ng-app="todoApp" ng-controller="todoController">
-    <input type="text" ng-model="newTask" /><br/>
-    {{newTask}}
 
+  <h1>What Needs To Be Done?</h1>
+
+    <form ng-submit="addTodo()">
+      <div>
+        <input type="text" ng-model="newTask" />
+        <button type="submit">Add Task</button>
+      </div>
+    </form>
+    <br/>
+
+    <div id="taskList">
+      <div ng-repeat="task in taskList">
+        <label class="description" ng-class="{strike:task.done}">
+          <input type="checkbox" ng-model="task.done"/>
+          {{task.description}}
+        </label>
+        <button ng-click="deleteTodo($index)">Delete</button>
+      </div>
+    </div>
 
     <script src="../bower_components/angular/angular.js"></script>
     <script src="app.js"></script>
     <script src="controllers.js"></script>
+
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
   </body>
 </html>
