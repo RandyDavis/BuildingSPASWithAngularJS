@@ -3,3 +3,30 @@
 #taskList .strike {
   text-decoration: line-through;
 }
+
+#taskList .description {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+
+#taskList input {
+  margin-right: 10px;
+}
+
+#taskList button {
+  float: right;
+  font-size: 13px;
+  visibility: hidden;
+}
+
+#taskList .list-group-item:hover button {
+  visibility: visible;
+}
+
+#taskList .list-group-item:hover {
+  visibility: visible;
+  background-color: gray;
+}
