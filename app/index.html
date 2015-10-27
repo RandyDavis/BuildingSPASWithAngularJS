@@ -22,22 +22,19 @@
             </div>
           </form>
         </div>
+        <br/>
 
-      </div>
-
-      <br/>
-
-      <div id="taskList" class="list-group">
-        <div ng-repeat="task in taskList" class="list-group-item">
-          <label class="description" ng-class="{strike:task.done}">
+        <div id="taskList" class="list-group">
+          <div ng-repeat="task in taskList" class="list-group-item">
+            <label class="description" ng-class="{strike:task.done}">
               <input type="checkbox" ng-model="task.done"/>
               {{task.description}}
             </label>
-          <button ng-click="deleteTodo($index)" class="btn btn-primary btn-danger btn-xs">Delete</button>
+            <button ng-click="deleteTodo($index)" class="btn btn-primary btn-danger btn-xs">Delete</button>
+          </div>
         </div>
       </div>
     </div>
-
 
     <script src="../bower_components/angular/angular.js"></script>
     <script src="app.js"></script>
