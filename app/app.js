@@ -1,3 +1,3 @@
 'use strict';
 
-angular.module('todoApp', []);
+angular.module('todoApp', ['todoApp.controller', 'ngAnimate']);

@@ -30,3 +30,31 @@
   visibility: visible;
   background-color: gray;
 }
+
+#pending {
+  display: inline-block;
+}
+
+#clearTasks {
+  float: right;
+}
+
+.task {
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  transition: all 1s;
+  overflow: hidden;
+}
+
+.task.ng-leave.ng-leave-active,
+.task.ng-enter {
+  height: 0px;
+  padding: 0px 15px;
+}
+
+.task.ng-leave,
+.task.ng-enter.ng-enter-active {
+  height: 50px;
+  padding: 10px 15px;
+}

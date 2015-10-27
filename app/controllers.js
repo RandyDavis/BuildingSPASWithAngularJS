@@ -1,8 +1,10 @@
 'use strict';
 
 angular.module('todoApp', [])
-    .controller('todoController', ["$scope", function ($scope) {
+    .controller('todoController', ["$scope", "$filter", function ($scope, $filter) {
         $scope.newTask = "";
+
+        $scope.pendingCount = 3;
 
         $scope.taskList = [
             {description: "Buy airplane tickets", done: false},
@@ -18,4 +20,12 @@ angular.module('todoApp', [])
         $scope.deleteTodo = function (index) {
             $scope.taskList.splice(index, 1);
         };
+
+        $scope.$watch('taskList', function () {
+            $scope.pendingCount = $filter('filter')($scope.taskList, {done: false}).length;
+        }, true)
+
+        $scope.clearCompleted = function () {
+            $scope.taskList = $filter('filter')($scope.taskList, {done: false});
+        }
     }]);
