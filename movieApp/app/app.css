@@ -1,0 +1,37 @@
+@import url("//fonts.googleapis.com/css?family=Lobster");
+
+body {
+    margin-top: 50px;
+}
+
+.section-title, .navbar-brand {
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    line-height: 1.1;
+    font-size: 26px;
+    margin-top: 0px;
+}
+
+.movie-container {
+    height: 250px;
+}
+
+.movie-thumb {
+    text-align: center;
+    color: #000;
+}
+
+.movie-thumb h5 {
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.movie-thumb:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+.thumbnail {
+    margin-bottom: 10px;
+    max-height: 200px;
+}
