@@ -35,3 +35,31 @@ body {
     margin-bottom: 10px;
     max-height: 200px;
 }
+
+.moviedetails .poster {
+    float: left;
+    margin-right: 20px;
+}
+
+.moviedetails .movie-title {
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    margin-top: 0px;
+}
+
+.moviedetails .btn-info {
+    margin-right: 5px;
+}
+
+.moviedetails .overview {
+    font-size: 17px;
+    margin: 15px 15%;
+}
+
+.moviedetails .return-link {
+    float: right;
+}
+
+.return-btn span {
+    padding-right: 5px;
+}

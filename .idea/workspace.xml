@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b3201f8-9cad-43ac-abd1-375c61381a78" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movieApp/app/catalog/catalog.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movieApp/app/movie/movie.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movieApp/app/movie/movie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/movieApp/app/app.js" afterPath="$PROJECT_DIR$/movieApp/app/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/movieApp/app/index.html" afterPath="$PROJECT_DIR$/movieApp/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/movieApp/app/app.css" afterPath="$PROJECT_DIR$/movieApp/app/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/movieApp/app/movie/movie.html" afterPath="$PROJECT_DIR$/movieApp/app/movie/movie.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="angularJSspas.iws" />
@@ -28,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/movieApp/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5925926">
+            <state vertical-scroll-proportion="-10.0">
               <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
               <folding />
             </state>
@@ -51,8 +48,8 @@
       <file leaf-file-name="movie.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/movieApp/app/movie/movie.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+            <state vertical-scroll-proportion="-3.125">
+              <caret line="5" column="81" selection-start-line="5" selection-start-column="81" selection-end-line="5" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -78,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/movieApp/app/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.75524473">
+              <caret line="63" column="23" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -133,9 +130,10 @@
         <option value="$PROJECT_DIR$/app/app.css" />
         <option value="$PROJECT_DIR$/movieApp/app/app.js" />
         <option value="$PROJECT_DIR$/movieApp/app/movie/movie.js" />
-        <option value="$PROJECT_DIR$/movieApp/app/movie/movie.html" />
         <option value="$PROJECT_DIR$/movieApp/app/catalog/catalog.html" />
         <option value="$PROJECT_DIR$/movieApp/app/index.html" />
+        <option value="$PROJECT_DIR$/movieApp/app/movie/movie.html" />
+        <option value="$PROJECT_DIR$/movieApp/app/app.css" />
       </list>
     </option>
   </component>
@@ -367,7 +365,13 @@
       <option name="project" value="LOCAL" />
       <updated>1445921728330</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="complete building spa pt4: added routes and started movie pages.">
+      <created>1446084735217</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1446084735217</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -420,7 +424,8 @@
     <MESSAGE value="complete Building a Todo App pt3; added bootstrap and custom styles" />
     <MESSAGE value="complete Building a Todo App pt3; added bootstrap and custom styles; Fix misaligned div causing display issue;" />
     <MESSAGE value="complete building todo app pt4; added ng-animate to finished app;" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete building todo app pt4; added ng-animate to finished app;" />
+    <MESSAGE value="complete building spa pt4: added routes and started movie pages." />
+    <option name="LAST_COMMIT_MESSAGE" value="complete building spa pt4: added routes and started movie pages." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -435,34 +440,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/movieApp/app/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/movieApp/app/catalog/catalog.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movieApp/app/movie/movie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movieApp/app/movie/movie.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -485,8 +466,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/movieApp/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5925926">
+        <state vertical-scroll-proportion="-10.0">
           <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movieApp/app/movie/movie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movieApp/app/movie/movie.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125">
+          <caret line="5" column="81" selection-start-line="5" selection-start-column="81" selection-end-line="5" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movieApp/app/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75524473">
+          <caret line="63" column="23" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
           <folding />
         </state>
       </provider>
