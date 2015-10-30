@@ -63,3 +63,8 @@ body {
 .return-btn span {
     padding-right: 5px;
 }
+
+.genre-title {
+    text-align: right;
+    margin-bottom: 0px;
+}
