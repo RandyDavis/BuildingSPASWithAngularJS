@@ -12,6 +12,7 @@ angular.module("movieDB.genre", ['ui.bootstrap'])
                 return $filter('filter')(movie.genres, {name: $scope.genreName}).length;
             });
         });
+        // Fix this .getMovies() method!!
 
         movieAPIService.getGenres().success(function (data) {
             $scope.genreList = data;
