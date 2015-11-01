@@ -8,6 +8,7 @@ angular.module("movieDB.catalog", ['ui.bootstrap'])
 
         $scope.currentPage = 1;
         $scope.pageSize = 12;
+        $scope.pageTitle = "Most Watched This Week";
 
         movieAPIService.getMovies().success(function (data) {
             $scope.movieList = data;
