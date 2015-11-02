@@ -7,7 +7,7 @@
         </button>
     </a>
     
-    <h1 class="movie-title">{{movie.title}}({{movie.release_date | date: 'yyyy'}})</h1>
+    <h1 class="movie-title">{{movie.title | revertWords}}({{movie.release_date | date: 'yyyy'}})</h1>
 
     <a ng-repeat="genre in movie.genres" href="#" class="btn btn-info">{{genre.name}}</a>
 

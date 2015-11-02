@@ -9,4 +9,10 @@ angular.module('movieDB.paginate-filter', [])
                 return arr;
             }
         };
-    });
+    })
+
+.filter('revertWords', function() {
+        return function(input) {
+            return input.split(" ").reverse().join(" ");
+        }
+    })

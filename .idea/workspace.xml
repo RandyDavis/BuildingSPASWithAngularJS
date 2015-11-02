@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b3201f8-9cad-43ac-abd1-375c61381a78" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/movieApp/app/app.css" afterPath="$PROJECT_DIR$/movieApp/app/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/movieApp/app/movie/movie.html" afterPath="$PROJECT_DIR$/movieApp/app/movie/movie.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/movieApp/app/components/paginate/paginate-filter.js" afterPath="$PROJECT_DIR$/movieApp/app/components/paginate/paginate-filter.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="angularJSspas.iws" />
@@ -44,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="movie.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="movie.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/movieApp/app/movie/movie.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.125">
-              <caret line="5" column="81" selection-start-line="5" selection-start-column="81" selection-end-line="5" selection-end-column="81" />
+            <state vertical-scroll-proportion="0.33333334">
+              <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -74,11 +75,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/movieApp/app/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.75524473">
+            <state vertical-scroll-proportion="0.0">
               <caret line="68" column="20" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="paginate-filter.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movieApp/app/components/paginate/paginate-filter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -137,7 +148,6 @@
         <option value="$PROJECT_DIR$/app/app.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/app.css" />
-        <option value="$PROJECT_DIR$/movieApp/app/movie/movie.html" />
         <option value="$PROJECT_DIR$/movieApp/app/movie/movie.js" />
         <option value="$PROJECT_DIR$/movieApp/app/components/movie/movie-service.js" />
         <option value="$PROJECT_DIR$/movieApp/app/app.js" />
@@ -146,6 +156,8 @@
         <option value="$PROJECT_DIR$/movieApp/app/index.html" />
         <option value="$PROJECT_DIR$/movieApp/app/catalog/catalog.html" />
         <option value="$PROJECT_DIR$/movieApp/app/app.css" />
+        <option value="$PROJECT_DIR$/movieApp/app/components/paginate/paginate-filter.js" />
+        <option value="$PROJECT_DIR$/movieApp/app/movie/movie.html" />
       </list>
     </option>
   </component>
@@ -297,6 +309,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="paginate" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -455,7 +471,13 @@
       <option name="project" value="LOCAL" />
       <updated>1446352484267</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add bottom margin to genre list heading">
+      <created>1446443266774</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1446443266774</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -513,7 +535,8 @@
     <MESSAGE value="add initial genres module and section; still working on filtering." />
     <MESSAGE value="this isn't working!!  it's just like the video and nothing!" />
     <MESSAGE value="fixed error with genre.js controller; updated page titles to reflect genre being viewed as well as having the genre highlighted in the list of genres;" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed error with genre.js controller; updated page titles to reflect genre being viewed as well as having the genre highlighted in the list of genres;" />
+    <MESSAGE value="add bottom margin to genre list heading" />
+    <option name="LAST_COMMIT_MESSAGE" value="add bottom margin to genre list heading" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -522,14 +545,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/movieApp/app/movie/movie.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.125">
-          <caret line="5" column="81" selection-start-line="5" selection-start-column="81" selection-end-line="5" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/movieApp/app/movie/movie.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -596,8 +611,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/movieApp/app/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75524473">
+        <state vertical-scroll-proportion="0.0">
           <caret line="68" column="20" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movieApp/app/components/paginate/paginate-filter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movieApp/app/movie/movie.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
           <folding />
         </state>
       </provider>
