@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b3201f8-9cad-43ac-abd1-375c61381a78" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/movieApp/app/catalog/catalog.html" afterPath="$PROJECT_DIR$/movieApp/app/catalog/catalog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/movieApp/app/catalog/catalog.js" afterPath="$PROJECT_DIR$/movieApp/app/catalog/catalog.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/movieApp/app/genre/genre.js" afterPath="$PROJECT_DIR$/movieApp/app/genre/genre.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/movieApp/app/index.html" afterPath="$PROJECT_DIR$/movieApp/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/movieApp/app/app.css" afterPath="$PROJECT_DIR$/movieApp/app/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="angularJSspas.iws" />
@@ -67,21 +64,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="catalog.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="catalog.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/movieApp/app/catalog/catalog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5555556">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state vertical-scroll-proportion="-10.625">
+              <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/movieApp/app/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.75524473">
+              <caret line="68" column="20" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -143,12 +140,12 @@
         <option value="$PROJECT_DIR$/movieApp/app/movie/movie.html" />
         <option value="$PROJECT_DIR$/movieApp/app/movie/movie.js" />
         <option value="$PROJECT_DIR$/movieApp/app/components/movie/movie-service.js" />
-        <option value="$PROJECT_DIR$/movieApp/app/app.css" />
         <option value="$PROJECT_DIR$/movieApp/app/app.js" />
         <option value="$PROJECT_DIR$/movieApp/app/genre/genre.js" />
         <option value="$PROJECT_DIR$/movieApp/app/catalog/catalog.js" />
         <option value="$PROJECT_DIR$/movieApp/app/index.html" />
         <option value="$PROJECT_DIR$/movieApp/app/catalog/catalog.html" />
+        <option value="$PROJECT_DIR$/movieApp/app/app.css" />
       </list>
     </option>
   </component>
@@ -452,7 +449,13 @@
       <option name="project" value="LOCAL" />
       <updated>1446267310628</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fixed error with genre.js controller; updated page titles to reflect genre being viewed as well as having the genre highlighted in the list of genres;">
+      <created>1446352484267</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1446352484267</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -509,7 +512,8 @@
     <MESSAGE value="add movie page template and styling" />
     <MESSAGE value="add initial genres module and section; still working on filtering." />
     <MESSAGE value="this isn't working!!  it's just like the video and nothing!" />
-    <option name="LAST_COMMIT_MESSAGE" value="this isn't working!!  it's just like the video and nothing!" />
+    <MESSAGE value="fixed error with genre.js controller; updated page titles to reflect genre being viewed as well as having the genre highlighted in the list of genres;" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed error with genre.js controller; updated page titles to reflect genre being viewed as well as having the genre highlighted in the list of genres;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -522,14 +526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.125">
           <caret line="5" column="81" selection-start-line="5" selection-start-column="81" selection-end-line="5" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movieApp/app/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -592,8 +588,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/movieApp/app/catalog/catalog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5555556">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state vertical-scroll-proportion="-10.625">
+          <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movieApp/app/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75524473">
+          <caret line="68" column="20" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
           <folding />
         </state>
       </provider>
