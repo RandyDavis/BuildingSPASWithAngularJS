@@ -4,26 +4,40 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>My AngularJS App</title>
   <link rel="stylesheet" href="app.css"/>
+  <link rel="stylesheet" href="bootstrap.css"/>
 </head>
-<body ng-app="todoApp2" ng-controller="todoController">
-<h1>What Needs To Be Done?</h1>
-  <form ng-submit="addTodo()">
-    <div>
-      <input type="text" ng-model="newTask"/>
-      <button type="submit" ng-click="addTask()">Add Task</button>
-    </div>
-  </form>
-  <br/>
+<body class="container" ng-app="todoApp2" ng-controller="todoController">
 
-  <div id="taskList">
-    <div ng-repeat="task in taskList">
-      <label ng-class="{strike: task.done}" class="description">
-        <input type="checkbox" ng-model="task.done"/>
-        {{task.description}}
-      </label>
-      <button ng-click="deleteTodo($index)">Delete</button>
+  <div class="row-fluid">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="jumbotron">
+        <h1>What Needs To Be Done?</h1>
+
+        <form ng-submit="addTodo()">
+          <div class="input-group input-group-lg">
+            <input class="form-control input-lg" type="text" ng-model="newTask"/>
+            <span class="input-group-btn">
+              <button class="btn btn-default" type="submit" ng-click="addTask()">Add Task</button>
+            </span>
+          </div>
+        </form>
+      </div>
+
+      <br/>
+
+      <div id="taskList" class="list-group">
+        <div ng-repeat="task in taskList" class="list-group-item">
+          <label ng-class="{strike: task.done}" class="description">
+            <input type="checkbox" ng-model="task.done"/>
+            {{task.description}}
+          </label>
+          <button class="btn btn-danger" ng-click="deleteTodo($index)">Delete</button>
+        </div>
+      </div>
     </div>
   </div>
+
+
 
 
   <script src="../bower_components/angular/angular.js"></script>

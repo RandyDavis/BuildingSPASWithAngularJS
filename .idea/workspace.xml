@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b3201f8-9cad-43ac-abd1-375c61381a78" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todoApp2/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todoApp2/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todoApp2/app/app.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todoApp2/app/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todoApp2/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todoApp2/app/controllers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todoApp2/app/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todoApp2/app/components/version/interpolate-filter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todoApp2/app/components/version/interpolate-filter_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todoApp2/karma.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todoApp2/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todoApp2/e2e-tests/protractor.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todoApp2/e2e-tests/scenarios.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todoApp2/app/components/version/version-directive.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todoApp2/app/components/version/version-directive_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todoApp2/app/components/version/version.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todoApp2/app/components/version/version_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todoApp2/app/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todoApp2/app/app.css" afterPath="$PROJECT_DIR$/todoApp2/app/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todoApp2/app/index.html" afterPath="$PROJECT_DIR$/todoApp2/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="angularJSspas.iws" />
@@ -50,21 +36,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/todoApp2/app/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.9300699">
+              <caret line="28" column="17" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/todoApp2/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6296296">
-              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+            <state vertical-scroll-proportion="-8.75">
+              <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -95,9 +81,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="Html5" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -129,8 +115,9 @@
         <option value="$PROJECT_DIR$/movieApp/app/index.html" />
         <option value="$PROJECT_DIR$/todoApp2/app/app.js" />
         <option value="$PROJECT_DIR$/todoApp2/app/controllers.js" />
-        <option value="$PROJECT_DIR$/todoApp2/app/app.css" />
+        <option value="$PROJECT_DIR$/todoApp2/app/bootstrap.css" />
         <option value="$PROJECT_DIR$/todoApp2/app/index.html" />
+        <option value="$PROJECT_DIR$/todoApp2/app/app.css" />
       </list>
     </option>
   </component>
@@ -386,7 +373,13 @@
       <option name="project" value="LOCAL" />
       <updated>1446695683284</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="create new directory for todoApp2 and get basic functionality working;">
+      <created>1446702572093</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1446702572093</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView">
@@ -400,10 +393,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991204" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -450,7 +443,8 @@
     <MESSAGE value="finish movie-service test unit tests" />
     <MESSAGE value="added e2e tests, but they are all failing and look to not be run properly; Investigating" />
     <MESSAGE value="still investigating e2e tests...changed app root path" />
-    <option name="LAST_COMMIT_MESSAGE" value="still investigating e2e tests...changed app root path" />
+    <MESSAGE value="create new directory for todoApp2 and get basic functionality working;" />
+    <option name="LAST_COMMIT_MESSAGE" value="create new directory for todoApp2 and get basic functionality working;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -602,18 +596,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/todoApp2/app/app.css">
+    <entry file="file://$PROJECT_DIR$/todoApp2/app/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.9300699">
+          <caret line="7300" column="1" selection-start-line="7300" selection-start-column="1" selection-end-line="7300" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/todoApp2/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6296296">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        <state vertical-scroll-proportion="-8.75">
+          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todoApp2/app/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9300699">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="17" />
           <folding />
         </state>
       </provider>
