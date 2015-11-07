@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b3201f8-9cad-43ac-abd1-375c61381a78" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todoApp2/app/bootstrap.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todoApp2/app/app.css" afterPath="$PROJECT_DIR$/todoApp2/app/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todoApp2/app/app.js" afterPath="$PROJECT_DIR$/todoApp2/app/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todoApp2/bower.json" afterPath="$PROJECT_DIR$/todoApp2/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todoApp2/app/controllers.js" afterPath="$PROJECT_DIR$/todoApp2/app/controllers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todoApp2/app/index.html" afterPath="$PROJECT_DIR$/todoApp2/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -39,8 +41,8 @@
       <file leaf-file-name="app.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/todoApp2/app/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9300699">
-              <caret line="28" column="17" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.86013985">
+              <caret line="48" column="46" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -49,8 +51,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/todoApp2/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.75">
-              <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+            <state vertical-scroll-proportion="-10.625">
+              <caret line="28" column="69" selection-start-line="28" selection-start-column="69" selection-end-line="28" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/todoApp2/bower.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.125">
+              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -60,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/todoApp2/app/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+              <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -70,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/todoApp2/app/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+              <caret line="28" column="80" selection-start-line="28" selection-start-column="80" selection-end-line="28" selection-end-column="80" />
               <folding />
             </state>
           </provider>
@@ -113,9 +125,10 @@
         <option value="$PROJECT_DIR$/movieApp/app/components/movie/movie-service_test.js" />
         <option value="$PROJECT_DIR$/movieApp/e2e-tests/scenarios.js" />
         <option value="$PROJECT_DIR$/movieApp/app/index.html" />
-        <option value="$PROJECT_DIR$/todoApp2/app/app.js" />
-        <option value="$PROJECT_DIR$/todoApp2/app/controllers.js" />
         <option value="$PROJECT_DIR$/todoApp2/app/bootstrap.css" />
+        <option value="$PROJECT_DIR$/todoApp2/app/controllers.js" />
+        <option value="$PROJECT_DIR$/todoApp2/bower.json" />
+        <option value="$PROJECT_DIR$/todoApp2/app/app.js" />
         <option value="$PROJECT_DIR$/todoApp2/app/index.html" />
         <option value="$PROJECT_DIR$/todoApp2/app/app.css" />
       </list>
@@ -185,6 +198,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="todoApp2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angularJSspas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angularJSspas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="todoApp2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angularJSspas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angularJSspas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="todoApp2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-animate" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -379,7 +432,13 @@
       <option name="project" value="LOCAL" />
       <updated>1446702572093</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add bootstrap and update styling">
+      <created>1446789077022</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1446789077022</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView">
@@ -444,7 +503,8 @@
     <MESSAGE value="added e2e tests, but they are all failing and look to not be run properly; Investigating" />
     <MESSAGE value="still investigating e2e tests...changed app root path" />
     <MESSAGE value="create new directory for todoApp2 and get basic functionality working;" />
-    <option name="LAST_COMMIT_MESSAGE" value="create new directory for todoApp2 and get basic functionality working;" />
+    <MESSAGE value="add bootstrap and update styling" />
+    <option name="LAST_COMMIT_MESSAGE" value="add bootstrap and update styling" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -580,22 +640,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/todoApp2/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todoApp2/app/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/todoApp2/app/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9300699">
@@ -604,18 +648,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/todoApp2/app/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="80" selection-start-line="28" selection-start-column="80" selection-end-line="28" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todoApp2/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.125">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todoApp2/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/todoApp2/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.75">
-          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+        <state vertical-scroll-proportion="-10.625">
+          <caret line="28" column="69" selection-start-line="28" selection-start-column="69" selection-end-line="28" selection-end-column="69" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/todoApp2/app/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9300699">
-          <caret line="28" column="17" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.86013985">
+          <caret line="48" column="46" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
           <folding />
         </state>
       </provider>

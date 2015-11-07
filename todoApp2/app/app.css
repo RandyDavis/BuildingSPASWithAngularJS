@@ -28,3 +28,25 @@
   background-color: #1c1e22;
   cursor: pointer;
 }
+
+#clearTasks {
+  float: right;
+}
+
+.task {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+  overflow: hidden;
+}
+
+.task.ng-leave.ng-leave-active, .task.ng-enter {
+  height: 0px;
+  padding: 0px 15px;
+}
+
+.task.ng-leave, .task.ng-enter.ng-enter-active {
+  height: 50px;
+  padding: 10px 15px;
+}
